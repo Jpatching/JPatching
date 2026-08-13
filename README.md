@@ -1,36 +1,26 @@
-# Joshua Patching
+# Josh Patching
 
-**Full-Stack Developer | Blockchain Infrastructure Engineer**
+Software Deployment Engineer — Linux, automation, RabbitMQ — building toward DevOps/infrastructure.
 
-Building enterprise-grade blockchain systems and Web3 applications with production-level reliability.
+Currently at Gratte Brothers (CCSG), administering the Linux/RabbitMQ infrastructure behind an AI video-analytics platform deployed across a 450+ site retail estate. Moved into engineering after six years in technology sales (Softcat, Converge UK); self-taught from there, now working toward Docker and Terraform depth.
 
-## Current Projects
+## Projects
 
-**n0de-platform** - Enterprise Solana RPC infrastructure serving 100+ active users  
-High-performance node deployment with sub-10ms response times and 99.9% uptime
+**[daybreak](https://github.com/jpatching/daybreak)** ([daybreakscan.com](https://daybreakscan.com)) — Solana deployer-reputation scanner: checks a token deployer's rug rate, wallet history, and funding clusters before you trade. Bayesian reputation scoring, funding-cluster tracing, live API + web interface.
 
-**PV3-Complete-Platform** - Full-stack Web3 gaming platform  
-Unity WebGL and Three.js games with cryptocurrency integration and real-time multiplayer
+**[chainbreak](https://github.com/jpatching/chainbreak)** — composable on-chain security kernel for Solana DeFi (timelock, RBAC, circuit breaker), built for the Colosseum Frontier hackathon in direct response to the April 2026 Drift Protocol exploit.
 
-**updatedpump** - Professional Solana trading automation  
-CLI tools with multi-wallet management and DEX protocol integration
+**[odysseus.nvim](https://github.com/jpatching/odysseus.nvim)** — local-first AI co-pilot for Neovim: LSP-aware help, chat, email, all through your own models. Zero telemetry, zero API keys.
 
-## Technical Focus
+## Day to day
 
-- **Backend**: Node.js, Express, PostgreSQL, Redis
-- **Blockchain**: Solana RPC, Web3.js, DeFi protocols
-- **Frontend**: React, TypeScript, Unity WebGL, Three.js
-- **Infrastructure**: Linux, Nginx, CI/CD, enterprise server management
-- **Payments**: Stripe API, cryptocurrency processing
+- Administer Linux servers across client sites; first point of contact for integration and escalation with partner engineering teams
+- Design RabbitMQ vhosts, queues, and event schemas connecting client software into the platform
+- Replaced a manual Excel-based vendor evaluation process with a scripted benchmarking pipeline (CVAT ground truth, NIST-aligned precision/recall/F1 reporting)
+- Automation and scripting in Python and Bash
 
-## Production Experience
-
-Currently operating enterprise infrastructure with AMD EPYC 9354 (32-core), 755GB RAM, 7TB storage. Processing live cryptocurrency transactions daily with zero security incidents across payment-critical systems.
-
-## Background
-
-3.5 years building production blockchain systems alongside 6+ years commercial experience at Softcat and Converge Technology Solutions. Combines technical development skills with enterprise sales understanding.
+Some other repos here are private or unlisted due to client/licensing constraints from past work — happy to talk through any of it.
 
 ---
 
-**Contact**: patchingjoshua@gmail.com | **LinkedIn**: joshua-patching-567b95210
+**Contact:** patchingjoshua@gmail.com · [LinkedIn](https://uk.linkedin.com/in/joshua-patching-567b95210)

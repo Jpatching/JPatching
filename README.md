@@ -1,23 +1,47 @@
 # Josh Patching
 
-Software Deployment Engineer — Linux, automation, RabbitMQ — building toward DevOps/infrastructure.
+**Software & Deployment Engineer** — Distributed Systems, Linux Infrastructure, Messaging (RabbitMQ), and Developer Tooling.
 
-Currently at Gratte Brothers (CCSG), administering the Linux/RabbitMQ infrastructure behind an AI video-analytics platform deployed across a 450+ site retail estate. Moved into engineering after six years in technology sales (Softcat, Converge UK); self-taught from there, now working toward Docker and Terraform depth.
+Software and deployment engineer specializing in Linux systems, reliable event-driven messaging architectures (RabbitMQ), and automated ETL pipelines across distributed multi-node server estates. Background in enterprise technical solutions, with a strong engineering focus on system reliability, fault-tolerant pipelines, and developer tooling.
 
-## Projects
+---
 
-**[daybreak](https://github.com/jpatching/daybreak)** ([daybreakscan.com](https://daybreakscan.com)) — Solana deployer-reputation scanner: checks a token deployer's rug rate, wallet history, and funding clusters before you trade. Bayesian reputation scoring, funding-cluster tracing, live API + web interface.
+## Featured Projects
 
-**[chainbreak](https://github.com/jpatching/chainbreak)** — composable on-chain security kernel for Solana DeFi (timelock, RBAC, circuit breaker), built for the Colosseum Frontier hackathon in direct response to the April 2026 Drift Protocol exploit.
+### [rabbitmq-patterns-cookbook](https://github.com/Jpatching/rabbitmq-patterns-cookbook)
+Comprehensive reference implementation of **14 enterprise messaging patterns** in Python & AMQP:
+- **Resilience**: Dead Letter Exchanges (DLQ), TTL-based Exponential Backoff Retries, and Competing Consumers.
+- **Reliability**: Publisher Confirms, Channel Tracking, Broker Health Monitoring, Priority Queues, and RPC.
+- **Zero-Config Local Setup**: Standalone `docker-compose` environment for immediate testing and simulation.
 
-**[odysseus.nvim](https://github.com/jpatching/odysseus.nvim)** — local-first AI co-pilot for Neovim: LSP-aware help, chat, email, all through your own models. Zero telemetry, zero API keys.
+### [mcp-outlook](https://github.com/Jpatching/mcp-outlook)
+A local-first **Model Context Protocol (MCP)** server connecting Claude Code, Claude Desktop, and Antigravity (AGY) to Microsoft 365 Outlook:
+- Built with Python and Windows MAPI COM — requires **zero cloud API tokens, OAuth applications, or Azure tenant admin permissions**.
+- **Human-in-the-Loop by Design**: Automatically creates drafts in the Outlook Drafts folder for user review; avoids automated blind sends.
+- Exposes tools for inbox searching, email drafting, calendar querying, and meeting scheduling directly through the local Outlook client.
 
-## Day to day
+### [automated-data-pipeline](https://github.com/Jpatching/weekly-tesco-report) *(Case Study)*
+Automated enterprise ingestion and segmentation pipeline:
+- Ingests daily master data feeds from cloud object storage (Azure Blob).
+- Implements multi-tier operational validation, data reconciliation, and policy segmentation.
+- Programmatically formats and distributes multi-tab styled reporting deliverables (`openpyxl`).
 
-- Administer Linux servers across client sites; first point of contact for integration and escalation with partner engineering teams
-- Design RabbitMQ vhosts, queues, and event schemas connecting client software into the platform
-- Replaced a manual Excel-based vendor evaluation process with a scripted benchmarking pipeline (CVAT ground truth, NIST-aligned precision/recall/F1 reporting)
-- Automation and scripting in Python and Bash
+### [cv-benchmark-tooling](https://github.com/Jpatching/StoreWalk-Benchmark) *(Tooling)*
+Computer Vision evaluation and benchmarking tool:
+- Automatically extracts timestamped frame stills and target bounding crops from video streams.
+- Programmatically compiles comparative accuracy evaluation decks (`python-pptx`) for stakeholder benchmarking.
+
+### [dotfiles & dev-environment](https://github.com/Jpatching/dotfiles)
+Idempotent dev environment bootstrapper for Ubuntu & WSL2:
+- Automated setup for Neovim (LazyVim), Zsh, Starship prompt, Delta git pager, Atuin history sync, and Tmux session persistence.
+
+---
+
+## Technical Focus & Day-to-Day
+
+- **Linux Systems Administration**: Maintaining and configuring distributed Linux production servers; proactive monitoring and escalation.
+- **Message Broker Architecture**: Designing RabbitMQ exchanges, routing keys, queues, DLQs, and event schemas connecting distributed edge devices to core processing services.
+- **Automation & Scripting**: Building automated ETL pipelines, database migration rollback safety scripts, and diagnostic socket listeners in Python and Bash.
 
 Some other repos here are private or unlisted due to client/licensing constraints from past work — happy to talk through any of it.
 
